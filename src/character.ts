@@ -9,7 +9,7 @@ class Character {
             Charisma: data.BaseCharisma || 3
         }
         this.Levels = data.Levels || [1];
-        this.Classes = data.Classes || [""];
+        this.Classes = data.Classes || ["Unspecified"];
     }
 
     Attributes: ICharacterAttributes;
