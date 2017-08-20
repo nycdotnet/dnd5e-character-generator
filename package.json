@@ -1,0 +1,32 @@
+{
+  "name": "dnd5e-character-generator",
+  "version": "0.1.0",
+  "description": "A system to assist with the generation of D&D 5th Edition Characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "author": "Steve Ognibene <steve.ognibene@outlook.com> (http://www.legendaryapps.com/)",
+  "license": "SEE LICENSE IN LICENSE.MD",
+  "devDependencies": {
+    "@types/jest": "^20.0.7",
+    "@types/node": "^8.0.24",
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.10",
+    "typescript": "^2.4.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}
