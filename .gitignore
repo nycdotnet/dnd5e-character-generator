@@ -1,4 +1,5 @@
 node_modules/
+built/
 *.js
 *.js.map
 
